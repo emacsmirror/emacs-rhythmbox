@@ -1,0 +1,22 @@
+= RhythmBox from Emacs =
+
+This is very simple. I was stuck on the train, I didn't want to listen
+to an album, I couldn't easily make a playlist without using the mouse
+a lot, that's really stupid because Emacs can navigate directories
+very easily.
+
+So I wrote this. 
+
+Right now it is just 2 commands:
+
+{{{rb-queue <song>}}}
+
+Which just shoves a file from your Music folder onto the rhythmbox
+queue.
+
+{{{rb-what}}}
+
+Just displays what is being played.
+
+
+I'm sure there'll be more stuff some time in the future.
