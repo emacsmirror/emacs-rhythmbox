@@ -5,7 +5,7 @@
 ;; Author: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Keywords: multimedia
 ;; Version: 0.0.1
-;; Package-Requires: ((s.el "1.4.0"))
+;; Package-Requires: ((s "1.4.0"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@
 (require 's)
 
 (defun rb-queue (song)
-  "Play the specified SONG."
+  "Enqueue the specified SONG."
   (interactive
    (list (dired-get-filename)))
   (let ((dir (file-name-directory song))
